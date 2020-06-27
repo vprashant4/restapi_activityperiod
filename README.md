@@ -1,1 +1,1 @@
-# activeuser : This is the project to how we can deal with nested objects serializers. 
+# activeuser: This is the project to dealing with nested objects serializers. 
