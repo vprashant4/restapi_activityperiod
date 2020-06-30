@@ -1,2 +1,14 @@
-# Output
-![Answer](https://user-images.githubusercontent.com/22742041/85932174-4b63a880-b8e7-11ea-8b81-84d820a6b525.jpg)
+<html>
+  <body>
+    <p><h1>Django Rest framework</h1></p>
+     <p>User Activity Periods: This is the Django rest framework project of dealing with nested objects serializers and through Routers and ViewSets.</p>
+  <p> First create virtual environment</p>
+  <p>https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#</p>
+  <p>"pip install -r requirements.txt"</p>
+   <b><i>Documentation: Nested serializers representations</i></b>
+  <p>https://www.django-rest-framework.org/api-guide/serializers/#writable-nested-representations</p>
+  <p>Happy Coding!</p>
+  </body>
+ </html>
+
+Demo: https://user-activityperiod.herokuapp.com/
