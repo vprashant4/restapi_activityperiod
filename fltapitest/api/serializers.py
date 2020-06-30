@@ -17,7 +17,7 @@ class ActivityPeriodSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ActivityPeriod
-        fields = ('start_time', 'end_time')
+        fields = ('user', 'start_time', 'end_time')
 
 
 class UserSerializer(serializers.ModelSerializer):
