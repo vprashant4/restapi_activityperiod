@@ -28,9 +28,6 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('id', 'real_name', 'tz', 'activity_periods')
 
-
-
-    #
     # def create(self, validated_data):
     #     tracks_data = validated_data.pop('activityperiod')
     #     user = User.objects.create(**validated_data)

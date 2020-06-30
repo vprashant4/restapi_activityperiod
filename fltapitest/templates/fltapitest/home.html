@@ -1,0 +1,14 @@
+{% extends "fltapitest/base.html" %}
+{% block content %}
+    {% if getuser %}
+        <ul>
+        {% for activeuser in getuser %}
+            <li><a href={{ activeuser.id }}>{{ activeuser.id }}</a></li>
+            <h1>{{activeuser.real_name}}</h1>
+            <h1>{{activeuser.tz}}</h1>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No user are available.</p>
+    {% endif %}
+{% endblock content %}

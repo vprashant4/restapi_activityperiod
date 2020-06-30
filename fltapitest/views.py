@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from .models import User
 
-# Create your views here.
+
+def home(request):
+    getuser = User.objects.all()
+    context = {'getuser': getuser}
+    return render(request, 'fltapitest/home.html', context)

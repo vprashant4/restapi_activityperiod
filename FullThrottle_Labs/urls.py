@@ -4,6 +4,8 @@ from .router import routers
 
 urlpatterns = [
     path('', include(routers.urls)),
-    path('admin/', admin.site.urls),
     path('api/', include(routers.urls)),
+    path('user/', include('fltapitest.urls')),
+    path('admin/', admin.site.urls),
+
 ]
