@@ -10,5 +10,3 @@
   <p>Happy Coding!</p>
   </body>
  </html>
-
-Demo: https://user-activityperiod.herokuapp.com/
